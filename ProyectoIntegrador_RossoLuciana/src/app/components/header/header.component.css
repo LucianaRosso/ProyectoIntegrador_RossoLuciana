@@ -1,0 +1,11 @@
+div { 
+    background-color: rgb(87, 45, 126);
+    width: 101%;
+    
+}
+
+app-social {
+               float: right;
+               margin-top: 15px;
+               align-items: center;
+}

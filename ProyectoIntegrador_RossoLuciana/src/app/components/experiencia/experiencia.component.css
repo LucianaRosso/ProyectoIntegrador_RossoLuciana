@@ -1,0 +1,11 @@
+.row{
+    padding: 50px;
+}
+div{
+    background-color: lightpink;
+    color: crimson;
+    text-align: justify;
+}
+h1, h3{
+    display: inline;
+}

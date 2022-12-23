@@ -1,0 +1,53 @@
+.row{
+    padding: 40px; ;
+}
+/*Estilo de Acerca de mí*/
+@media (min-width: 576px){
+div{
+    background-color: #d29bfd;
+    text-align: left;
+}
+}
+@media (max-width: 576px){
+    div{
+        background-color: #d29bfd;
+        text-align: center;
+    }
+    }
+
+/*Estilo de la foto de perfil*/
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 16%;
+        border-radius: 45%;
+        box-shadow: 3px 3px 3px gray;
+        left: 1.5%;
+        top: 835px;
+    }
+}
+@media (max-width: 575px){
+    #fotodeperfil{
+        position: absolute;
+        width: 35%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 32%;
+        top: 380px;
+        height: 140px;
+    }
+}
+
+/*etiqueta nombre, título y Acerca de mí*/
+
+#nombre{font-weight: bold; 
+    margin-top: 5%;
+    color: white;
+}
+#título{color: white; 
+    font-weight: bold; 
+}
+#Acercademí{color: #572364;
+}
+#Acercademípárrafo{color: #572364;
+}
