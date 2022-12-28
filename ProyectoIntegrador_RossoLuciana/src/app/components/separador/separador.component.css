@@ -1,0 +1,27 @@
+.row{
+    background-color: #d29bfd;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+@media (min-width: 576px){img{
+    width: 40%;
+    height: 500px;
+    transition: 0.5s;
+    object-fit: cover;
+    
+}}
+@media (max-width: 576px){img{
+    width: 150%;
+    height: 300px;
+    transition: 0.5s;
+    object-fit: cover;
+    
+}}
+ img:hover{
+    transform:scale(1.2);
+ }

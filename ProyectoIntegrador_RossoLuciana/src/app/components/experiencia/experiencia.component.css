@@ -1,9 +1,9 @@
 .row{
-    padding: 50px;
+    padding: 60px;
 }
 div{
-    background-color: lightpink;
-    color: crimson;
+    background-color:#a349a4 ;
+    color: white;
     text-align: justify;
 }
 h1, h3{

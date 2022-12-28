@@ -1,4 +1,45 @@
-#logoAP {
-    width: 120px;
-    left: 30%;
+h5 {
+    color: white;
+    font-style: bold;
+    display: flex;
+    align-items: center;
 }
+#logoAP{width: 155px;
+    left: 30%;
+
+}
+img{
+    width: 55px;
+    right: 250%;
+    justify-content: space-between;
+    padding-right: 11px;
+}
+.btn{
+    color: violet;
+    font-weight: bold;
+    border-width: medium;
+    margin-bottom: 3%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.redesylogin{
+    margin-right: 1%;
+}
+
+/*--- Para la vista de celular ---*/
+
+@media (max-width: 575px)
+{.container{
+    flex-direction: column;
+}
+
+.redes{
+    margin: 0.2em;
+}}

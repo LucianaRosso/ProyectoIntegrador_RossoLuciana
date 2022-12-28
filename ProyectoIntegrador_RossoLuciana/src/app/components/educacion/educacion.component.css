@@ -1,9 +1,9 @@
 .row{
-    padding: 50px;
+    padding: 60px;
 }
 div{
-    background-color: #fdeefd;
-    color: #eb636b;
+    background-color: plum;
+    color: rgb(112, 60, 127);
     text-align: justify;
 }
 h1, h3{
