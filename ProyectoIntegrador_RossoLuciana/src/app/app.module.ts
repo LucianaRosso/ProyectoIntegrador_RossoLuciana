@@ -14,6 +14,7 @@ import { HysComponent } from './components/hys/hys.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SeparadorComponent } from './components/separador/separador.component';
+import { CierreComponent } from './components/cierre/cierre.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SeparadorComponent } from './components/separador/separador.component';
     HysComponent,
     ProyectoComponent,
     FooterComponent,
-    SeparadorComponent
+    SeparadorComponent,
+    CierreComponent
   ],
   imports: [
     BrowserModule,
