@@ -14,7 +14,8 @@
                     <img src="../../../assets/separador7.png" alt="">
            
                 
-            <button  type="bottom" class="btn btn-outline-light btn-lg">L o g i n</button>
+            <button  type="bottom" class="btn btn-outline-light btn-lg" (click)="login()" *ngIf="!isLogged">L o g i n</button>
+            <button  type="bottom" class="btn btn-outline-light btn-lg" (click)="onLogOut()" *ngIf="isLogged">Cerrar sesión</button>
         </div>
     </div>
 </div>

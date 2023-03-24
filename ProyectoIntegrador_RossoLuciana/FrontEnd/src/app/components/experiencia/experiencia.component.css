@@ -9,3 +9,18 @@ div{
 h1, h3{
     display: inline;
 }
+
+.btn{
+    background-color: violet;
+    color: purple;
+    font-weight: bold;
+    border-width: medium;
+    margin-bottom: 3%;
+}
+
+h1,p {
+    color: white;
+    font-style: bold;
+    display: flex;
+    align-items: center;
+}

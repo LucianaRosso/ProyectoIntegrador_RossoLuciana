@@ -1,5 +1,5 @@
 .row{
-    background-color: #d29bfd;
+    background-color: purple;
     text-align: center;
     padding: 20px;
     display: flex;
@@ -9,15 +9,15 @@
     
 }
 @media (min-width: 576px){img{
-    width: 40%;
-    height: 500px;
+    width: 20%;
+    height: 250px;
     transition: 0.5s;
     object-fit: cover;
     
 }}
 @media (max-width: 576px){img{
-    width: 150%;
-    height: 300px;
+    width: 75%;
+    height: 150px;
     transition: 0.5s;
     object-fit: cover;
     
